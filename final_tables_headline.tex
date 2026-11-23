@@ -1,0 +1,56 @@
+% ====== Table: SR-ADMM+LS vs local search ======
+\begin{table}[H]
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{4pt}
+	\caption{SR-ADMM+LS against multistart local search on instances with $n>1000$. Gap (\%): mean below the best of the three compared values. LS (same): LS given the time SR-ADMM+LS used; LS (120\,s): LS given 120\,s (\texttt{--} where not run). W/T/L: instances where SR-ADMM+LS is better/equal/worse than LS (same). Times in seconds; FISTA+LS is identical to SR-ADMM+LS in quality. Bottom panel reports two-sided Wilcoxon signed-rank $p$-values comparing SR-ADMM+LS against LS (same) and LS (120\,s).}
+	\label{tab:headline}
+	\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+		\begin{tabular}{rrrrrrrrr}
+			\toprule
+			$n$ & \# & SR-ADMM+LS & LS (same) & LS (120\,s) & W/T/L & $t_{\rm SR-ADMM}$ & $t_{\rm FISTA}$ & $t_{\rm LS,120}$\\
+			\midrule
+			\multicolumn{9}{l}{\emph{dense (\texttt{bqpgubs})}}\\
+			2000 & 2 & 2.52 & 0.82 & 0.00 & 0/0/2 & 7.5 & 0.3 & 120 \\
+			2500 & 2 & 0.63 & 1.57 & 0.00 & 2/0/0 & 1.0 & 0.3 & 120 \\
+			3000 & 2 & 1.14 & 1.83 & 0.00 & 2/0/0 & 1.4 & 0.4 & 120 \\
+			4000 & 2 & 0.70 & 1.16 & 0.33 & 2/0/0 & 2.3 & 0.9 & 120 \\
+			5000 & 5 & 0.19 & 1.72 & 0.52 & 5/0/0 & 3.8 & 0.9 & 120 \\
+			6000 & 5 & 0.00 & 1.71 & 0.89 & 5/0/0 & 5.5 & 1.4 & 120 \\
+			7000 & 5 & 0.00 & 1.60 & 0.80 & 5/0/0 & 7.7 & 1.6 & 120 \\
+			7500 & 5 & 0.03 & 1.61 & 0.91 & 5/0/0 & 9.6 & 1.7 & 120 \\
+			8000 & 3 & 0.00 & 2.37 & 1.59 & 3/0/0 & 12.9 & 2.2 & 120 \\
+			10000 & 3 & 0.00 & 1.35 & 1.13 & 3/0/0 & 19.6 & 3.4 & 120 \\
+			\midrule
+			\multicolumn{9}{l}{\emph{CMISP}}\\
+			2000 & 5 & 0.71 & 0.00 & -- & 0/0/5 & 1.6 & 0.3 & 0 \\
+			5000 & 5 & 0.26 & 0.20 & 0.01 & 2/0/3 & 15.3 & 2.8 & 120 \\
+			10000 & 1 & 0.00 & 0.02 & 0.02 & 1/0/0 & 95.2 & 15.3 & 120 \\
+			\midrule
+			\multicolumn{9}{l}{\emph{Wilcoxon signed-rank $p$-values (SR-ADMM+LS vs.\ LS)}}\\
+			$1000 < n < 5000$ & 13 & \multicolumn{1}{c}{--} & $0.542$ & $0.0469^*$ & 6/0/7 & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} \\
+			$n \ge 5000$ (all) & 32 & \multicolumn{1}{c}{--} & $4.1\times 10^{-8}$ & $1.8\times 10^{-5}$ & 29/0/3 & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} \\
+			$n \ge 6000$ (all) & 22 & \multicolumn{1}{c}{--} & $4.77\times 10^{-7}$ & $1.43\times 10^{-6}$ & 22/0/0 & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} \\
+			dense, $n \ge 5000$ & 26 & \multicolumn{1}{c}{--} & $2.98\times 10^{-8}$ & $1.28\times 10^{-6}$ & 26/0/0 & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} \\
+			\texttt{CMISP}, $n \ge 5000$ & 6 & \multicolumn{1}{c}{--} & $0.688$ & $0.219$ & 3/0/3 & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} & \multicolumn{1}{c}{--} \\
+			\bottomrule
+			\multicolumn{9}{l}{\footnotesize $^*$Evaluated on the $7$ instances where LS (120\,s) was run.}
+	\end{tabular}}
+\end{table}
+
+% ====== Table: local-search budget sweep ======
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Multistart local search with budgets of 10, 30, 120 and 300\,s against SR-ADMM+LS (4 to 15\,s) on dense instances: mean gap (\%) to the best of the five values.}
+\label{tab:sweep}
+\begin{tabular}{rrrrrrr}
+\toprule
+$n$ & \# & SR-ADMM+LS & LS 10\,s & LS 30\,s & LS 120\,s & LS 300\,s\\
+\midrule
+5000 & 2 & 0.51 & 0.74 & 0.65 & 0.04 & 0.00 \\
+6000 & 2 & 0.00 & 1.47 & 1.07 & 0.62 & 0.50 \\
+8000 & 2 & 0.00 & 2.37 & 2.06 & 1.69 & 1.31 \\
+\bottomrule
+\end{tabular}
+\end{table}

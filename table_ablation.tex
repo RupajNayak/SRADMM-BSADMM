@@ -1,0 +1,13 @@
+
+\begin{table}[H]\centering\small
+	\caption{SR-ADMM ablation on instances not used in the main experiments (seed $101$): iterations to the stopping criterion ($\epsilon_{\rm abs}=10^{-7}$, $\epsilon_{\rm rel}=10^{-6}$, at most $3000$ iterations) and wall-clock time in seconds in parentheses. An asterisk marks runs that hit the iteration limit. ``CMISP-type'' denotes the synthetic family of Section~\ref{sec:delta}.}\label{tab:ablation}
+	\begin{tabular}{lrcccc}\toprule
+		Type & $n$ & fixed $\rho$ & adaptive $\rho$ & fixed $\rho$ + accel. & adaptive $\rho$ + accel. \\\midrule
+		dense & 200 & 59 (0.02) & 1512 (0.76) & 62 (0.02) & 1189 (0.71) \\
+		dense & 500 & 60 (0.10) & 3000$^*$ (11.0) & 69 (0.13) & 2564 (9.25) \\
+		dense & 1000 & 54 (0.46) & 3000$^*$ (48.7) & 84 (0.56) & 2278 (39.1) \\
+		CMISP-type & 2000 & 94 (0.09) & 230 (0.49) & 69 (0.08) & 178 (0.45) \\
+		CMISP-type & 5000 & 84 (0.23) & 272 (1.52) & 141 (0.41) & 181 (1.20) \\
+		CMISP-type & 10000 & 92 (0.51) & 239 (2.76) & 85 (0.52) & 181 (2.48) \\
+		\bottomrule\end{tabular}
+\end{table}

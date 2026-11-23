@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Tuning of BS-ADMM on held-out instances (dense, $m=5$, $s=4$, seeds 101--120; none of them is used elsewhere). Entries: mean gap\,\% (median gap\,\%), \# optimal of 20. Penalties are in units of $\norm R_2$: $\rho_{\min}=c_{\min}\norm R_2$, $\rho^0=\max\{\rho_{\min},c_0\norm R_2\}$ (so columns coincide when $c_{\min}\ge c_0$). `convex' means $\rho_{\min}=2\max\{\lambda_{\Nset},0\}$, the smallest value for which the $x$-subproblem is convex.}
+\label{tab:tuning}
+\small
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{lccc}
+\toprule
+$c_{\min}$ & $c_0=0.02$ & $c_0=0.1$ & $c_0=0.5$ \\
+\midrule
+convex & 100.8 (100.7), 0 & 100.8 (100.7), 0 & 100.8 (100.7), 0 \\
+0.5 & 24.8 (23.0), 3 & 24.8 (23.0), 3 & 24.8 (23.0), 3 \\
+0.1 & 18.9 (11.7), 5 & 18.9 (11.7), 5 & 24.3 (23.0), 4 \\
+0.02 & 18.9 (11.7), 5 & 18.9 (11.7), 5 & 24.3 (23.0), 4 \\
+0.005 & 18.9 (11.7), 5 & 18.9 (11.7), 5 & 24.3 (23.0), 4 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,81 @@
+% ====== Table: mean gap to best known (main run) ======
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Mean gap (\%) to the best known value (best of all methods in the main run), by size. SR-ADMM, PAL and BS-ADMM are followed by swap local search. LS-ms and ILS were given the time of the slowest of SR-ADMM+LS, PAL+LS and BS-ADMM+LS, at most 120\,s. Cert.: certified gap $100(U-f_{\rm best})/U$. FISTA+LS equals SR-ADMM+LS on every instance and is omitted.}
+\label{tab:main}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{rrrrrrrr}
+\toprule
+$n$ & \# & SR-ADMM+LS & PAL+LS & BS-ADMM+LS & LS-ms & ILS & Cert.\\
+\midrule
+\multicolumn{8}{l}{\emph{dense (\texttt{bqpgubs})}}\\
+20 & 15 & 2.01 & 1.50 & 7.85 & 0.00 & 0.00 & 32.2 \\
+50 & 15 & 3.16 & 2.45 & 9.68 & 0.00 & 1.64 & 35.6 \\
+100 & 5 & 1.32 & 1.32 & 11.67 & 0.00 & 0.71 & 51.5 \\
+200 & 5 & 3.14 & 3.57 & 2.86 & 0.00 & 2.60 & 34.2 \\
+250 & 5 & 1.05 & 2.30 & 1.89 & 0.00 & 1.35 & 15.5 \\
+500 & 5 & 3.01 & 2.74 & 7.34 & 0.00 & 3.90 & 48.0 \\
+1000 & 5 & 3.56 & 3.10 & 6.19 & 0.00 & 2.39 & 41.2 \\
+2000 & 5 & 2.64 & 1.98 & 5.57 & 0.00 & 2.49 & 37.5 \\
+2500 & 5 & 1.58 & 1.19 & 2.63 & 0.08 & 2.53 & 37.8 \\
+3000 & 5 & 0.91 & 0.43 & 6.10 & 0.19 & 2.61 & 37.9 \\
+4000 & 5 & 0.75 & 0.20 & 4.65 & 0.36 & 1.69 & 38.0 \\
+5000 & 5 & 0.36 & 0.34 & 4.40 & 0.69 & 2.01 & 37.7 \\
+6000 & 5 & 0.08 & 0.27 & 4.47 & 0.97 & 1.56 & 37.6 \\
+7000 & 5 & 0.05 & 0.21 & 3.91 & 0.84 & 1.78 & 37.9 \\
+7500 & 5 & 0.44 & 0.22 & 4.10 & 1.31 & 1.80 & 37.9 \\
+8000 & 3 & 0.00 & 0.67 & 3.52 & 1.59 & 1.77 & 37.8 \\
+10000 & 3 & 0.24 & 0.00 & 2.58 & 1.37 & 1.44 & 37.9 \\
+\midrule
+\multicolumn{8}{l}{\emph{CMISP}}\\
+500 & 7 & 3.61 & 3.64 & 6.35 & 0.08 & 2.46 & 38.2 \\
+1000 & 5 & 2.49 & 1.78 & 4.76 & 0.00 & 1.79 & 33.4 \\
+2000 & 5 & 1.30 & 0.64 & 2.71 & 0.09 & 0.59 & 28.4 \\
+5000 & 5 & 0.35 & 0.08 & 1.06 & 0.10 & 0.46 & 21.9 \\
+10000 & 1 & 0.20 & 0.00 & 0.97 & 0.22 & 0.24 & 17.2 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+% ====== Table: mean times (main run) ======
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Mean wall-clock time (s) per instance, including rounding and local search. PAL was limited to 300\,s, LS-ms to the time of the slowest of the others, at most 120\,s (as for ILS).}
+\label{tab:times}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{rrrrrrr}
+\toprule
+$n$ & \# & SR-ADMM+LS & FISTA+LS & PAL+LS & BS-ADMM+LS & LS-ms\\
+\midrule
+\multicolumn{7}{l}{\emph{dense (\texttt{bqpgubs})}}\\
+20 & 15 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+50 & 15 & 0.0 & 0.0 & 0.1 & 0.0 & 0.1 \\
+100 & 5 & 0.0 & 0.0 & 0.2 & 0.0 & 0.2 \\
+200 & 5 & 0.0 & 0.0 & 0.3 & 0.0 & 0.4 \\
+250 & 5 & 0.0 & 0.0 & 0.4 & 0.0 & 0.4 \\
+500 & 5 & 0.2 & 0.0 & 4.0 & 0.2 & 4.0 \\
+1000 & 5 & 0.9 & 0.0 & 24.6 & 0.5 & 24.6 \\
+2000 & 5 & 8.1 & 0.2 & 208.0 & 3.3 & 109.5 \\
+2500 & 5 & 1.3 & 0.2 & 119.5 & 2.2 & 107.8 \\
+3000 & 5 & 1.9 & 0.3 & 121.9 & 4.1 & 101.4 \\
+4000 & 5 & 3.9 & 0.7 & 277.9 & 6.2 & 120.0 \\
+5000 & 5 & 6.3 & 0.9 & 251.6 & 10.9 & 107.6 \\
+6000 & 5 & 8.9 & 1.5 & 300.0 & 13.7 & 120.0 \\
+7000 & 5 & 10.4 & 1.8 & 300.0 & 20.7 & 120.1 \\
+7500 & 5 & 10.7 & 1.9 & 300.1 & 27.9 & 120.1 \\
+8000 & 3 & 13.0 & 2.4 & 300.1 & 43.7 & 120.1 \\
+10000 & 3 & 20.7 & 3.6 & 300.1 & 44.2 & 120.2 \\
+\midrule
+\multicolumn{7}{l}{\emph{CMISP}}\\
+500 & 7 & 0.1 & 0.0 & 2.4 & 0.0 & 2.4 \\
+1000 & 5 & 0.3 & 0.1 & 11.5 & 0.1 & 11.5 \\
+2000 & 5 & 1.8 & 0.3 & 60.9 & 0.3 & 60.9 \\
+5000 & 5 & 18.3 & 2.8 & 300.0 & 2.1 & 120.0 \\
+10000 & 1 & 95.0 & 15.3 & 300.1 & 7.0 & 120.1 \\
+\bottomrule
+\end{tabular}}
+\end{table}

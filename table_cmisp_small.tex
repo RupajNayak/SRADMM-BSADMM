@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering\small
+\caption{Small CMISP instances. Mean gap (\%) to the reference: the proven optimum for $n\le100$ (enumeration for $n\le50$, HiGHS for $n=100$) and the best value found by any method for $n=200$. SR-ADMM+LS, PAL+LS and LS-10 (10 random starts) are compared with LS (same): multistart LS with the wall-clock time of SR-ADMM+LS. FISTA+LS equals SR-ADMM+LS on every instance. Cert.: certified gap $100(U-f_{\rm ref})/U$. The $n=20$ row includes one instance with a single cluster.}
+\label{tab:cmispsmall}
+\begin{tabular}{rrrrrrr}
+\toprule
+$n$ & \# & SR-ADMM+LS & PAL+LS & LS-10 & LS (same) & Cert.\\
+\midrule
+20 & 6 & 0.00 & 0.00 & 0.00 & 0.00 & 22.0\\
+50 & 5 & 1.51 & 0.69 & 0.00 & 0.00 & 25.1\\
+100 & 5 & 2.60 & 1.76 & 1.16 & 0.39 & 21.9\\
+200 & 5 & 0.75 & 0.52 & 0.78 & 0.61 & 16.0\\
+\bottomrule
+\end{tabular}
+\end{table}
