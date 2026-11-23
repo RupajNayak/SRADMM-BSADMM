@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.9
+pandas>=1.5          # only for scripts/make_benchmark_tables.py
+# optional exact solvers (benchmarking only; need licences for larger models):
+# cplex>=22.1
+# gurobipy>=11
