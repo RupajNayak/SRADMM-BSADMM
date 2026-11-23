@@ -1,0 +1,30 @@
+bqpgub_paper v4-identity-perm
+resume: 67 done, 11 left
+    cmisp-2000-1 n=2000   AADMM+LS=6549  PAL+LS=6549  MADMM+LS=6441  LS-ms=6599  ILS=6573  [29.3s]
+bqpgub_paper v4-identity-perm
+bqpgub_paper v4-identity-perm
+    cmisp-2000-2 n=2000   AADMM+LS=6523  PAL+LS=6597  MADMM+LS=6442  LS-ms=6605  ILS=6531  [254.2s]
+bqpgub_paper v4-identity-perm
+resume: 67 done, 11 left
+    cmisp-2000-1 n=2000   AADMM+LS=6549  PAL+LS=6549  MADMM+LS=6441  LS-ms=6599  ILS=6573  [29.5s]
+    cmisp-2000-2 n=2000   AADMM+LS=6523  PAL+LS=6597  MADMM+LS=6442  LS-ms=6623  ILS=6540  [207.8s]
+    cmisp-2000-3 n=2000   AADMM+LS=6520  PAL+LS=6554  MADMM+LS=6453  LS-ms=6621  ILS=6588  [234.6s]
+    cmisp-2000-4 n=2000   AADMM+LS=6510  PAL+LS=6610  MADMM+LS=6382  LS-ms=6603  ILS=6632  [224.5s]
+    cmisp-2000-5 n=2000   AADMM+LS=6573  PAL+LS=6582  MADMM+LS=6488  LS-ms=6629  ILS=6576  [230.9s]
+    cmisp-5000-1 n=5000   AADMM+LS=37439  PAL+LS=37443  MADMM+LS=37044  LS-ms=37454  ILS=37503  [565.9s]
+    cmisp-5000-2 n=5000   AADMM+LS=37335  PAL+LS=37527  MADMM+LS=37026  LS-ms=37538  ILS=37294  [565.5s]
+    cmisp-5000-3 n=5000   AADMM+LS=37504  PAL+LS=37628  MADMM+LS=37304  LS-ms=37482  ILS=37331  [566.5s]
+    cmisp-5000-4 n=5000   AADMM+LS=37269  PAL+LS=37421  MADMM+LS=37152  LS-ms=37444  ILS=37292  [566.6s]
+    cmisp-5000-5 n=5000   AADMM+LS=37388  PAL+LS=37409  MADMM+LS=37078  LS-ms=37474  ILS=37303  [565.6s]
+   cmisp-10000-1 n=10000  AADMM+LS=142376  PAL+LS=142656  MADMM+LS=141278  LS-ms=142345  ILS=142319  [670.8s]
+    n  #  gap AADMM+LS  gap PAL+LS  gap MADMM+LS  gap FISTA+LS  gap LS-ms  gap Greedy+LS  gap ILS  certified gap  t aadmm  t pal  t madmm
+   20 15          2.01        1.50          7.85          2.01       0.00           5.93     0.00          32.16     0.00   0.02     0.00
+   50 15          3.16        2.45          9.68          3.16       0.00          12.74     1.64          35.58     0.00   0.05     0.01
+  100  5          1.32        1.32         11.67          1.32       0.00           9.62     0.71          51.48     0.02   0.22     0.01
+  200  5          3.14        3.57          2.86          3.14       0.00           8.33     2.60          34.16     0.03   0.35     0.01
+  250  5          1.05        2.30          1.89          1.05       0.00           2.19     1.35          15.52     0.02   0.43     0.02
+  500 12          3.36        3.27          6.76          3.36       0.05           6.46     3.06          42.32     0.15   3.09     0.10
+ 1000 10          3.02        2.44          5.48          3.02       0.00           6.87     2.09          37.32     0.60  18.09     0.31
+ 2000  5          1.30        0.64          2.71          1.30       0.09           2.46     0.59          28.39     1.79  60.93     0.31
+ 5000  5          0.35        0.08          1.06          0.35       0.10           1.10     0.46          21.89    18.26 300.02     2.06
+10000  1          0.20        0.00          0.97          0.20       0.22           0.34     0.24          17.24    95.00 300.07     7.02

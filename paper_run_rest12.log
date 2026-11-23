@@ -1,0 +1,44 @@
+bqpgub_paper v5-match-to
+  bqpgubs-2000-3 n=2000   AADMM+LS=352996  PAL+LS=351738  MADMM+LS=346749  LS-ms=359069  ILS=354460  [401.1s]
+  bqpgubs-2000-4 n=2000   AADMM+LS=351289  PAL+LS=356836  MADMM+LS=343529  LS-ms=358801  ILS=344898  [320.2s]
+  bqpgubs-2000-5 n=2000   AADMM+LS=322404  PAL+LS=326600  MADMM+LS=311924  LS-ms=337190  ILS=320683  [550.9s]
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-2500-3.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(2500, 2500), p(2500,), sizes(500,), perm(2500,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-2500-4.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(2500, 2500), p(2500,), sizes(500,), perm(2500,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-2500-5.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(2500, 2500), p(2500,), sizes(500,), perm(2500,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-3000-3.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(3000, 3000), p(3000,), sizes(600,), perm(3000,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-3000-4.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(3000, 3000), p(3000,), sizes(600,), perm(3000,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-3000-5.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(3000, 3000), p(3000,), sizes(600,), perm(3000,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-4000-3.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(4000, 4000), p(4000,), sizes(800,), perm(4000,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-4000-4.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(4000, 4000), p(4000,), sizes(800,), perm(4000,), seed(), bs()")
+[skip] /Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgubs-4000-5.npz: ValueError("file has 'sizes' and 'perm'. Their meaning must be set explicitly: --npz-groups perm | contig | invperm  (see the message in the chat). Variables: R(4000, 4000), p(4000,), sizes(800,), perm(4000,), seed(), bs()")
+Traceback (most recent call last):
+  File [35m"/Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgub_paper_v5.py"[0m, line [35m675[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m"/Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgub_paper_v5.py"[0m, line [35m671[0m, in [35mmain[0m
+    [31msummarize[0m[1;31m(a.out, a.latex)[0m
+    [31m~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/rupajnayak/Desktop/2-Oms_ADMM/code/bqpgub_paper_v5.py"[0m, line [35m597[0m, in [35msummarize[0m
+    D = [31mpd.read_csv[0m[1;31m(path)[0m; vcols = [c for c in ["aadmm_fls", "pal_fls", "madmm_fls", "fista_fls", "pal_m1_fls", "pal_m5_fls",
+        [31m~~~~~~~~~~~[0m[1;31m^^^^^^[0m
+  File [35m"/opt/anaconda3/lib/python3.14/site-packages/pandas/io/parsers/readers.py"[0m, line [35m873[0m, in [35mread_csv[0m
+    return _read(filepath_or_buffer, kwds)
+  File [35m"/opt/anaconda3/lib/python3.14/site-packages/pandas/io/parsers/readers.py"[0m, line [35m306[0m, in [35m_read[0m
+    return [31mparser.read[0m[1;31m(nrows)[0m
+           [31m~~~~~~~~~~~[0m[1;31m^^^^^^^[0m
+  File [35m"/opt/anaconda3/lib/python3.14/site-packages/pandas/io/parsers/readers.py"[0m, line [35m1947[0m, in [35mread[0m
+    ) = [31mself._engine.read[0m[1;31m(  # type: ignore[attr-defined][0m
+        [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+        [1;31mnrows[0m
+        [1;31m^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"/opt/anaconda3/lib/python3.14/site-packages/pandas/io/parsers/c_parser_wrapper.py"[0m, line [35m215[0m, in [35mread[0m
+    chunks = self._reader.read_low_memory(nrows)
+  File [35m"pandas/_libs/parsers.pyx"[0m, line [35m832[0m, in [35mpandas._libs.parsers.TextReader.read_low_memory[0m
+  File [35m"pandas/_libs/parsers.pyx"[0m, line [35m897[0m, in [35mpandas._libs.parsers.TextReader._read_rows[0m
+  File [35m"pandas/_libs/parsers.pyx"[0m, line [35m868[0m, in [35mpandas._libs.parsers.TextReader._tokenize_rows[0m
+  File [35m"pandas/_libs/parsers.pyx"[0m, line [35m885[0m, in [35mpandas._libs.parsers.TextReader._check_tokenize_status[0m
+  File [35m"pandas/_libs/parsers.pyx"[0m, line [35m2084[0m, in [35mpandas._libs.parsers.raise_parser_error[0m
+[1;35mpandas.errors.ParserError[0m: [35mError tokenizing data. C error: Expected 54 fields in line 13, saw 107
+[0m

@@ -1,0 +1,112 @@
+55 instance(s); workers=1; methods=ls,mip; time-limit=60.0s
+[load] bqpgubs-20-1.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=115.4  delta=115.4  load 0.0s eig 0.0s; 2 task(s)
+[load] bqpgubs-20-10.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=143  delta=143  load 0.0s eig 0.0s; 2 task(s)
+[load] bqpgubs-20-11.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=123.9  delta=123.9  load 0.0s eig 0.0s; 2 task(s)
+[load] bqpgubs-20-12.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=109.2  delta=109.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-1.txt             n=20     m=5      LS=393.8(0.00%)  Gurobi=393.8[optimal,0s]  best=393.8
+[load] bqpgubs-20-13.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=109.2  delta=109.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-10.txt            n=20     m=5      LS=447.8(0.00%)  Gurobi=447.8[optimal,0s]  best=447.8
+[load] bqpgubs-20-14.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=135.5  delta=135.5  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-11.txt            n=20     m=5      LS=448.0(0.00%)  Gurobi=448.0[optimal,0s]  best=448.0
+[load] bqpgubs-20-15.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=139.4  delta=139.4  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-12.txt            n=20     m=5      LS=366.3(0.00%)  Gurobi=366.3[optimal,0s]  best=366.3
+[load] bqpgubs-20-2.txt: n=20 m=5 group sizes 3-6 R asymmetry 0 (symmetrised)  lambda_N=138.8  delta=138.8  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-13.txt            n=20     m=5      LS=366.3(0.00%)  Gurobi=366.3[optimal,0s]  best=366.3
+[load] bqpgubs-20-3.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=142.3  delta=142.3  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-14.txt            n=20     m=5      LS=376.5(0.00%)  Gurobi=376.5[optimal,0s]  best=376.5
+[load] bqpgubs-20-4.txt: n=20 m=4 group sizes 3-9 R asymmetry 0 (symmetrised)  lambda_N=120.5  delta=120.5  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-15.txt            n=20     m=5      LS=421.5(0.00%)  Gurobi=421.5[optimal,0s]  best=421.5
+[load] bqpgubs-20-5.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=135.6  delta=135.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-2.txt             n=20     m=5      LS=241.1(0.00%)  Gurobi=241.1[optimal,0s]  best=241.1
+[load] bqpgubs-20-6.txt: n=20 m=4 group sizes 3-6 R asymmetry 0 (symmetrised)  lambda_N=152.1  delta=152.1  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-3.txt             n=20     m=5      LS=471.0(0.00%)  Gurobi=471.0[optimal,0s]  best=471.0
+[load] bqpgubs-20-7.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=152.3  delta=152.3  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-4.txt             n=20     m=4      LS=284.2(0.00%)  Gurobi=284.2[optimal,0s]  best=284.2
+[load] bqpgubs-20-8.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=146.5  delta=146.5  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-5.txt             n=20     m=5      LS=415.5(7.75%)  Gurobi=450.4[optimal,0s]  best=450.4
+[load] bqpgubs-20-9.txt: n=20 m=5 group sizes 3-5 R asymmetry 0 (symmetrised)  lambda_N=122.9  delta=122.9  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-6.txt             n=20     m=4      LS=450.2(0.00%)  Gurobi=450.2[optimal,0s]  best=450.2
+[load] bqpgubs-50-1.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=271  delta=271  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-7.txt             n=20     m=5      LS=468.3(0.00%)  Gurobi=468.3[optimal,0s]  best=468.3
+[load] bqpgubs-50-10.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=267  delta=267  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-8.txt             n=20     m=5      LS=297.4(0.00%)  Gurobi=297.4[optimal,0s]  best=297.4
+[load] bqpgubs-50-11.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=235.9  delta=235.9  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-20-9.txt             n=20     m=5      LS=304.9(0.00%)  Gurobi=304.9[optimal,0s]  best=304.9
+[load] bqpgubs-50-12.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=238.4  delta=238.4  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-1.txt             n=50     m=10     LS=1559.0(1.00%)  Gurobi=1574.8[optimal,3s]  best=1574.8
+[load] bqpgubs-50-13.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=250.9  delta=250.9  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-10.txt            n=50     m=10     LS=1371.0(0.00%)  Gurobi=1371.0[optimal,3s]  best=1371.0
+[load] bqpgubs-50-14.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=250.8  delta=250.8  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-11.txt            n=50     m=10     LS=1403.8(0.00%)  Gurobi=1403.8[optimal,2s]  best=1403.8
+[load] bqpgubs-50-15.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=237.8  delta=237.8  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-12.txt            n=50     m=10     LS=1227.4(0.00%)  Gurobi=1227.4[optimal,3s]  best=1227.4
+[load] bqpgubs-50-2.txt: n=50 m=9 group sizes 5-10 R asymmetry 0 (symmetrised)  lambda_N=264.2  delta=264.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-13.txt            n=50     m=10     LS=1388.5(0.00%)  Gurobi=1388.5[optimal,2s]  best=1388.5
+[load] bqpgubs-50-3.txt: n=50 m=9 group sizes 5-10 R asymmetry 0 (symmetrised)  lambda_N=251.2  delta=251.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-14.txt            n=50     m=10     LS=1511.0(0.00%)  Gurobi=1511.0[optimal,1s]  best=1511.0
+[load] bqpgubs-50-4.txt: n=50 m=9 group sizes 5-10 R asymmetry 0 (symmetrised)  lambda_N=236.7  delta=236.7  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-15.txt            n=50     m=10     LS=1412.3(1.56%)  Gurobi=1434.6[optimal,1s]  best=1434.6
+[load] bqpgubs-50-5.txt: n=50 m=8 group sizes 5-15 R asymmetry 0 (symmetrised)  lambda_N=236.7  delta=236.7  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-2.txt             n=50     m=9      LS=1213.0(0.00%)  Gurobi=1213.0[optimal,2s]  best=1213.0
+[load] bqpgubs-50-6.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=247.5  delta=247.5  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-3.txt             n=50     m=9      LS=1149.6(0.00%)  Gurobi=1149.6[optimal,2s]  best=1149.6
+[load] bqpgubs-50-7.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=263.7  delta=263.7  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-4.txt             n=50     m=9      LS=1241.6(0.00%)  Gurobi=1241.6[optimal,2s]  best=1241.6
+[load] bqpgubs-50-8.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=236.6  delta=236.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-5.txt             n=50     m=8      LS=999.0(0.00%)  Gurobi=999.0[optimal,1s]  best=999.0
+[load] bqpgubs-50-9.txt: n=50 m=10 group sizes 5-5 R asymmetry 0 (symmetrised)  lambda_N=244.4  delta=244.4  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-6.txt             n=50     m=10     LS=1443.3(9.02%)  Gurobi=1586.4[optimal,2s]  best=1586.4
+[load] bqpgubs-100-1.txt: n=100 m=10 group sizes 3-69 R asymmetry 0 (symmetrised)  lambda_N=354.7  delta=354.7  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-7.txt             n=50     m=10     LS=1535.2(0.00%)  Gurobi=1535.2[optimal,2s]  best=1535.2
+[load] bqpgubs-100-2.txt: n=100 m=13 group sizes 3-56 R asymmetry 0 (symmetrised)  lambda_N=339.2  delta=339.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-8.txt             n=50     m=10     LS=1352.2(0.00%)  Gurobi=1352.2[optimal,2s]  best=1352.2
+[load] bqpgubs-100-3.txt: n=100 m=13 group sizes 3-59 R asymmetry 0 (symmetrised)  lambda_N=362.6  delta=362.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-50-9.txt             n=50     m=10     LS=1524.0(0.00%)  Gurobi=1524.0[optimal,2s]  best=1524.0
+[load] bqpgubs-100-4.txt: n=100 m=11 group sizes 3-66 R asymmetry 0 (symmetrised)  lambda_N=358.5  delta=358.5  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-100-1.txt            n=100    m=10     LS=1299.2(0.00%)  Gurobi=1299.2[optimal,1s]  best=1299.2
+[load] bqpgubs-100-5.txt: n=100 m=12 group sizes 3-60 R asymmetry 0 (symmetrised)  lambda_N=366.2  delta=366.2  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-100-2.txt            n=100    m=13     LS=1956.1(0.00%)  Gurobi=1956.1[optimal,4s]  best=1956.1
+[load] bqpgubs-200-1.txt: n=200 m=44 group sizes 3-48 R asymmetry 0 (symmetrised)  lambda_N=503.7  delta=503.7  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-100-3.txt            n=100    m=13     LS=1838.7(0.00%)  Gurobi=1838.7[optimal,3s]  best=1838.7
+[load] bqpgubs-200-2.txt: n=200 m=44 group sizes 3-52 R asymmetry 0 (symmetrised)  lambda_N=493.6  delta=493.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-100-4.txt            n=100    m=11     LS=1363.8(2.41%)  Gurobi=1397.5[optimal,2s]  best=1397.5
+[load] bqpgubs-200-3.txt: n=200 m=41 group sizes 3-61 R asymmetry 0 (symmetrised)  lambda_N=506.8  delta=506.8  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-100-5.txt            n=100    m=12     LS=1547.6(0.00%)  Gurobi=1547.6[optimal,4s]  best=1547.6
+[load] bqpgubs-200-4.txt: n=200 m=50 group sizes 3-32 R asymmetry 0 (symmetrised)  lambda_N=490.1  delta=490.1  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-200-1.txt            n=200    m=44     LS=11654.0(0.00%)  Gurobi=11648.4[time limit exceeded,600s]  best=11654.0
+[load] bqpgubs-200-5.txt: n=200 m=48 group sizes 3-32 R asymmetry 0 (symmetrised)  lambda_N=513.4  delta=513.4  load 0.1s eig 0.0s; 2 task(s)
+[done] bqpgubs-200-2.txt            n=200    m=44     LS=11637.3(0.31%)  Gurobi=11673.4[time limit exceeded,600s]  best=11673.4
+[load] bqpgubs-250-1.npz: n=250 m=125 group sizes 2-2 R asymmetry 99.4 (symmetrised)  lambda_N=444.1  delta=444.1  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-200-3.txt            n=200    m=41     LS=10367.0(0.83%)  Gurobi=10453.7[time limit exceeded,600s]  best=10453.7
+[load] bqpgubs-250-2.npz: n=250 m=125 group sizes 2-2 R asymmetry 99.3 (symmetrised)  lambda_N=441.1  delta=441.1  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-200-4.txt            n=200    m=50     LS=13867.6(0.25%)  Gurobi=13902.5[time limit exceeded,434s]  best=13902.5
+[load] bqpgubs-250-3.npz: n=250 m=125 group sizes 2-2 R asymmetry 99.4 (symmetrised)  lambda_N=466  delta=466  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-200-5.txt            n=200    m=48     LS=12404.2(2.06%)  Gurobi=12664.9[time limit exceeded,600s]  best=12664.9
+[load] bqpgubs-250-4.npz: n=250 m=125 group sizes 2-2 R asymmetry 99.6 (symmetrised)  lambda_N=425.6  delta=425.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-250-1.npz            n=250    m=125    LS=32039.0(0.00%)  best=32039.0  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[load] bqpgubs-250-5.npz: n=250 m=125 group sizes 2-2 R asymmetry 99.3 (symmetrised)  lambda_N=452.6  delta=452.6  load 0.0s eig 0.0s; 2 task(s)
+[done] bqpgubs-250-2.npz            n=250    m=125    LS=30170.0(0.00%)  best=30170.0  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[load] bqpgubs-500-1.txt: n=500 m=79 group sizes 3-230 R asymmetry 0 (symmetrised)  lambda_N=832.9  delta=832.9  load 0.2s eig 0.0s; 2 task(s)
+[done] bqpgubs-250-3.npz            n=250    m=125    LS=35527.5(0.00%)  best=35527.5  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-250-4.npz            n=250    m=125    LS=30636.7(0.00%)  best=30636.7  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-250-5.npz            n=250    m=125    LS=31678.6(0.00%)  best=31678.6  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[load] bqpgubs-500-2.txt: n=500 m=99 group sizes 3-151 R asymmetry 0 (symmetrised)  lambda_N=819.2  delta=819.2  load 0.2s eig 0.0s; 2 task(s)
+[load] bqpgubs-500-3.txt: n=500 m=73 group sizes 3-242 R asymmetry 0 (symmetrised)  lambda_N=838.6  delta=838.6  load 0.2s eig 0.0s; 2 task(s)
+[load] bqpgubs-500-4.txt: n=500 m=57 group sizes 3-301 R asymmetry 0 (symmetrised)  lambda_N=837.2  delta=837.2  load 0.2s eig 0.1s; 2 task(s)
+[done] bqpgubs-500-1.txt            n=500    m=79     LS=25777.2(0.00%)  best=25777.2  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-500-2.txt            n=500    m=99     LS=37523.4(0.00%)  best=37523.4  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-500-3.txt            n=500    m=73     LS=23398.2(0.00%)  best=23398.2  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[load] bqpgubs-500-5.txt: n=500 m=67 group sizes 3-273 R asymmetry 0 (symmetrised)  lambda_N=819.5  delta=819.5  load 0.2s eig 0.0s; 2 task(s)
+[load] bqpgubs-1000-1.txt: n=1000 m=142 group sizes 4-436 R asymmetry 0 (symmetrised)  lambda_N=1199  delta=1199  load 0.9s eig 0.1s; 2 task(s)
+[load] bqpgubs-1000-2.txt: n=1000 m=177 group sizes 4-296 R asymmetry 0 (symmetrised)  lambda_N=1172  delta=1172  load 0.9s eig 0.1s; 2 task(s)
+[done] bqpgubs-1000-1.txt           n=1000   m=142    LS=66002.5(0.00%)  best=66002.5  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-500-5.txt            n=500    m=67     LS=20596.5(0.00%)  best=20596.5  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-500-4.txt            n=500    m=57     LS=15661.7(0.00%)  best=15661.7  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[load] bqpgubs-1000-3.txt: n=1000 m=239 group sizes 4-48 R asymmetry 0 (symmetrised)  lambda_N=1110  delta=1110  load 0.9s eig 0.2s; 2 task(s)
+[load] bqpgubs-1000-4.txt: n=1000 m=221 group sizes 4-120 R asymmetry 0 (symmetrised)  lambda_N=1125  delta=1125  load 0.9s eig 0.1s; 2 task(s)
+[load] bqpgubs-1000-5.txt: n=1000 m=148 group sizes 4-412 R asymmetry 0 (symmetrised)  lambda_N=1183  delta=1183  load 0.9s eig 0.2s; 2 task(s)
+[done] bqpgubs-1000-2.txt           n=1000   m=177    LS=94537.8(0.00%)  best=94537.8  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-1000-3.txt           n=1000   m=239    LS=145328.0(0.00%)  best=145328.0  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-1000-4.txt           n=1000   m=221    LS=127162.9(0.00%)  best=127162.9  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[done] bqpgubs-1000-5.txt           n=1000   m=148    LS=68938.5(0.00%)  best=68938.5  ERRORS: mip: GurobiError: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+finished in 2891.7s -> /Users/rupajnayak/Desktop/bqpgub_merged/code/resGurobi.csv / /Users/rupajnayak/Desktop/bqpgub_merged/code/resGurobi.json

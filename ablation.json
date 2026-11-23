@@ -1,0 +1,218 @@
+[
+ {
+  "kind": "dense",
+  "n": 200,
+  "variant": "fixed rho, no accel.",
+  "iters": 59,
+  "time": 0.018858944000044175,
+  "converged": true,
+  "cg": 1110
+ },
+ {
+  "kind": "dense",
+  "n": 200,
+  "variant": "adaptive rho",
+  "iters": 1512,
+  "time": 0.7591240320000452,
+  "converged": true,
+  "cg": 45062
+ },
+ {
+  "kind": "dense",
+  "n": 200,
+  "variant": "adaptive rho + accel.",
+  "iters": 1189,
+  "time": 0.7089750579999645,
+  "converged": true,
+  "cg": 39211
+ },
+ {
+  "kind": "dense",
+  "n": 200,
+  "variant": "fixed rho + accel.",
+  "iters": 62,
+  "time": 0.023749236999947243,
+  "converged": true,
+  "cg": 1190
+ },
+ {
+  "kind": "dense",
+  "n": 500,
+  "variant": "fixed rho, no accel.",
+  "iters": 60,
+  "time": 0.09974583600001097,
+  "converged": true,
+  "cg": 1160
+ },
+ {
+  "kind": "dense",
+  "n": 500,
+  "variant": "adaptive rho",
+  "iters": 3000,
+  "time": 10.976088681000078,
+  "converged": false,
+  "cg": 126502
+ },
+ {
+  "kind": "dense",
+  "n": 500,
+  "variant": "adaptive rho + accel.",
+  "iters": 2564,
+  "time": 9.248656387999972,
+  "converged": true,
+  "cg": 108531
+ },
+ {
+  "kind": "dense",
+  "n": 500,
+  "variant": "fixed rho + accel.",
+  "iters": 69,
+  "time": 0.132388571999968,
+  "converged": true,
+  "cg": 1432
+ },
+ {
+  "kind": "dense",
+  "n": 1000,
+  "variant": "fixed rho, no accel.",
+  "iters": 54,
+  "time": 0.46010747599996193,
+  "converged": true,
+  "cg": 1133
+ },
+ {
+  "kind": "dense",
+  "n": 1000,
+  "variant": "adaptive rho",
+  "iters": 3000,
+  "time": 48.65268682499993,
+  "converged": false,
+  "cg": 149991
+ },
+ {
+  "kind": "dense",
+  "n": 1000,
+  "variant": "adaptive rho + accel.",
+  "iters": 2278,
+  "time": 39.13598763199991,
+  "converged": true,
+  "cg": 129780
+ },
+ {
+  "kind": "dense",
+  "n": 1000,
+  "variant": "fixed rho + accel.",
+  "iters": 84,
+  "time": 0.5563458569999966,
+  "converged": true,
+  "cg": 1766
+ },
+ {
+  "kind": "cmisp",
+  "n": 2000,
+  "variant": "fixed rho, no accel.",
+  "iters": 94,
+  "time": 0.0948969579999357,
+  "converged": true,
+  "cg": 1358
+ },
+ {
+  "kind": "cmisp",
+  "n": 2000,
+  "variant": "adaptive rho",
+  "iters": 230,
+  "time": 0.489780499999938,
+  "converged": true,
+  "cg": 7421
+ },
+ {
+  "kind": "cmisp",
+  "n": 2000,
+  "variant": "adaptive rho + accel.",
+  "iters": 178,
+  "time": 0.4508023549999507,
+  "converged": true,
+  "cg": 6802
+ },
+ {
+  "kind": "cmisp",
+  "n": 2000,
+  "variant": "fixed rho + accel.",
+  "iters": 69,
+  "time": 0.07957425600000079,
+  "converged": true,
+  "cg": 1139
+ },
+ {
+  "kind": "cmisp",
+  "n": 5000,
+  "variant": "fixed rho, no accel.",
+  "iters": 84,
+  "time": 0.23118454300004032,
+  "converged": true,
+  "cg": 1236
+ },
+ {
+  "kind": "cmisp",
+  "n": 5000,
+  "variant": "adaptive rho",
+  "iters": 272,
+  "time": 1.5190704299999425,
+  "converged": true,
+  "cg": 8781
+ },
+ {
+  "kind": "cmisp",
+  "n": 5000,
+  "variant": "adaptive rho + accel.",
+  "iters": 181,
+  "time": 1.1964994329999854,
+  "converged": true,
+  "cg": 6783
+ },
+ {
+  "kind": "cmisp",
+  "n": 5000,
+  "variant": "fixed rho + accel.",
+  "iters": 141,
+  "time": 0.40754286499998216,
+  "converged": true,
+  "cg": 2209
+ },
+ {
+  "kind": "cmisp",
+  "n": 10000,
+  "variant": "fixed rho, no accel.",
+  "iters": 92,
+  "time": 0.5051958130000003,
+  "converged": true,
+  "cg": 1318
+ },
+ {
+  "kind": "cmisp",
+  "n": 10000,
+  "variant": "adaptive rho",
+  "iters": 239,
+  "time": 2.755158884000025,
+  "converged": true,
+  "cg": 7917
+ },
+ {
+  "kind": "cmisp",
+  "n": 10000,
+  "variant": "adaptive rho + accel.",
+  "iters": 181,
+  "time": 2.4786941009999737,
+  "converged": true,
+  "cg": 6999
+ },
+ {
+  "kind": "cmisp",
+  "n": 10000,
+  "variant": "fixed rho + accel.",
+  "iters": 85,
+  "time": 0.5203873019999037,
+  "converged": true,
+  "cg": 1392
+ }
+]

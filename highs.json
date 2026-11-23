@@ -1,0 +1,232 @@
+[
+ {
+  "m": 10,
+  "s": 5,
+  "n": 50,
+  "seed": 1,
+  "highs": {
+   "value": 1891.000000000001,
+   "dual_bound": 1891.000000000001,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "time": 4.516290421999997
+  },
+  "aadmm": {
+   "delta": 340.6592851371034,
+   "U": 3080.574150489675,
+   "f_relaxed": 779.1795692593855,
+   "f_round": 1349.0,
+   "f_ls": 1792.0,
+   "time": 0.22385964800002967,
+   "time_ls": 0.00013439499997502935,
+   "iters": 674,
+   "converged": true,
+   "cg": 16219,
+   "rho_changes": 6
+  },
+  "madmm": {
+   "f_relaxed": 1825.2592024539879,
+   "f_round": 1825.0,
+   "f_ls": 1825.0,
+   "time": 0.04108946299999161,
+   "time_ls": 6.438100001560088e-05,
+   "iters": 83,
+   "inner": 2237,
+   "ascent_ok": true
+  },
+  "ls": {
+   "value": 1792.0,
+   "time": 0.0009334869999975126,
+   "starts": 10
+  },
+  "ls_matched": {
+   "value": 1891.0,
+   "time": 0.04124720099997603,
+   "starts": 422
+  }
+ },
+ {
+  "m": 10,
+  "s": 5,
+  "n": 50,
+  "seed": 2,
+  "highs": {
+   "value": 2017.0000000000007,
+   "dual_bound": 2017.0000000000007,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "time": 1.5638110849999975
+  },
+  "aadmm": {
+   "delta": 333.866482076932,
+   "U": 2989.5105019616108,
+   "f_relaxed": 881.7361077046528,
+   "f_round": 1562.0,
+   "f_ls": 1860.0,
+   "time": 0.3754514799999811,
+   "time_ls": 9.87100000315877e-05,
+   "iters": 1021,
+   "converged": true,
+   "cg": 27224,
+   "rho_changes": 7
+  },
+  "madmm": {
+   "f_relaxed": 2017.0,
+   "f_round": 2017.0,
+   "f_ls": 2017.0,
+   "time": 0.0012676160000069103,
+   "time_ls": 3.4882000022662396e-05,
+   "iters": 24,
+   "inner": 51,
+   "ascent_ok": true
+  },
+  "ls": {
+   "value": 2017.0,
+   "time": 0.001175078000017038,
+   "starts": 10
+  },
+  "ls_matched": {
+   "value": 2017.0,
+   "time": 0.0013162429999624692,
+   "starts": 12
+  }
+ },
+ {
+  "m": 10,
+  "s": 5,
+  "n": 50,
+  "seed": 3,
+  "highs": {
+   "value": 1650.0000000000002,
+   "dual_bound": 1650.0000000000002,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "time": 3.3543216840000127
+  },
+  "aadmm": {
+   "delta": 345.3339991123403,
+   "U": 2776.954924023201,
+   "f_relaxed": 271.1299084277738,
+   "f_round": 1102.0,
+   "f_ls": 1530.0,
+   "time": 0.19751148300002797,
+   "time_ls": 9.705799999437659e-05,
+   "iters": 637,
+   "converged": true,
+   "cg": 14268,
+   "rho_changes": 9
+  },
+  "madmm": {
+   "f_relaxed": 1530.0000000000002,
+   "f_round": 1530.0,
+   "f_ls": 1530.0,
+   "time": 0.676799926000001,
+   "time_ls": 6.483099997467434e-05,
+   "iters": 796,
+   "inner": 37743,
+   "ascent_ok": true
+  },
+  "ls": {
+   "value": 1650.0,
+   "time": 0.0009274849999769685,
+   "starts": 10
+  },
+  "ls_matched": {
+   "value": 1650.0,
+   "time": 0.676952813000014,
+   "starts": 6410
+  }
+ },
+ {
+  "m": 20,
+  "s": 5,
+  "n": 100,
+  "seed": 1,
+  "highs": {
+   "value": 5639.0,
+   "dual_bound": 9408.464596612072,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "time": 100.02377550899996
+  },
+  "aadmm": {
+   "delta": 468.09455979805745,
+   "U": 8535.297633327633,
+   "f_relaxed": 2458.9756584540223,
+   "f_round": 4935.0,
+   "f_ls": 5639.0,
+   "time": 0.6699176609999995,
+   "time_ls": 0.00014637899994340842,
+   "iters": 1150,
+   "converged": true,
+   "cg": 42074,
+   "rho_changes": 7
+  },
+  "madmm": {
+   "f_relaxed": 5498.0,
+   "f_round": 5498.0,
+   "f_ls": 5498.0,
+   "time": 0.006831747999967774,
+   "time_ls": 4.139800000757532e-05,
+   "iters": 126,
+   "inner": 269,
+   "ascent_ok": true
+  },
+  "ls": {
+   "value": 5688.0,
+   "time": 0.0018098699999882228,
+   "starts": 10
+  },
+  "ls_matched": {
+   "value": 5702.0,
+   "time": 0.006904192999968473,
+   "starts": 41
+  }
+ },
+ {
+  "m": 20,
+  "s": 5,
+  "n": 100,
+  "seed": 2,
+  "highs": {
+   "value": 5561.0,
+   "dual_bound": 9406.967674495087,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "time": 100.01313412399998
+  },
+  "aadmm": {
+   "delta": 508.6264065828019,
+   "U": 9037.989419424048,
+   "f_relaxed": 2439.311378084394,
+   "f_round": 5257.0,
+   "f_ls": 5444.0,
+   "time": 0.5545364600000084,
+   "time_ls": 9.96689999510636e-05,
+   "iters": 1413,
+   "converged": true,
+   "cg": 41583,
+   "rho_changes": 5
+  },
+  "madmm": {
+   "f_relaxed": 5830.0,
+   "f_round": 5830.0,
+   "f_ls": 5830.0,
+   "time": 0.0014008399999738685,
+   "time_ls": 3.450400004112453e-05,
+   "iters": 27,
+   "inner": 57,
+   "ascent_ok": true
+  },
+  "ls": {
+   "value": 5830.0,
+   "time": 0.0014858219999496214,
+   "starts": 10
+  },
+  "ls_matched": {
+   "value": 5830.0,
+   "time": 0.0015640750000329717,
+   "starts": 10
+  }
+ }
+]
